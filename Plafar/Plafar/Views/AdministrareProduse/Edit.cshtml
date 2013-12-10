@@ -1,0 +1,54 @@
+﻿@model Plafar.Models.Produs
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Editare Produs</legend>
+
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Cod)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Cod)
+            @Html.ValidationMessageFor(model => model.Cod)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Denumire)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Denumire)
+            @Html.ValidationMessageFor(model => model.Denumire)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Descriere)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Descriere)
+            @Html.ValidationMessageFor(model => model.Descriere)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

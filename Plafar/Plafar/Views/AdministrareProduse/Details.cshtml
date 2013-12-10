@@ -1,0 +1,36 @@
+﻿@model Plafar.Models.Produs
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Detalii Produs</h2>
+
+<fieldset>
+    <legend>Produs</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Cod)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Cod)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Denumire)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Denumire)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Descriere)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Descriere)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
