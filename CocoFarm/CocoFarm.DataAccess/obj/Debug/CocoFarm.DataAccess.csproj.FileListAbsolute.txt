@@ -1,0 +1,7 @@
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\obj\Debug\CocoFarm.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\bin\Debug\CocoFarm.DataAccess.dll
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\bin\Debug\CocoFarm.DataAccess.pdb
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\bin\Debug\CocoFarm.Model.dll
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\bin\Debug\CocoFarm.Model.pdb
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\obj\Debug\CocoFarm.DataAccess.dll
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.DataAccess\obj\Debug\CocoFarm.DataAccess.pdb

@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Details";
+}
+@model CocoFarm.Models.Produs
+<h2>Detalii produs</h2>
+
+<fieldset>
+    <legend>@Html.DisplayNameFor(model => model.Denumire)</legend>
+    <div>
+        @Html.LabelFor(model => model.Denumire)
+        @Html.DisplayFor(model => model.Denumire)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Cod)
+        @Html.DisplayFor(model => model.Cod)
+    </div>
+    <div>
+        @Html.LabelFor(model => model.Descriere)
+        @Html.DisplayFor(model => model.Descriere)
+    </div>
+</fieldset>
+
+<p>
+    @Html.ActionLink("Modifică", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Înapoi în listă", "Index")
+</p>

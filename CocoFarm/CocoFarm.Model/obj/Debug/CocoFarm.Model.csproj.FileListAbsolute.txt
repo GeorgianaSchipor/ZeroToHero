@@ -1,0 +1,5 @@
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.Model\obj\Debug\CocoFarm.Model.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.Model\bin\Debug\CocoFarm.Model.dll
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.Model\bin\Debug\CocoFarm.Model.pdb
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.Model\obj\Debug\CocoFarm.Model.dll
+C:\Users\User\Documents\GitHub\CocoFarmSql\CocoFarm\CocoFarm.Model\obj\Debug\CocoFarm.Model.pdb
