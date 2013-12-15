@@ -1,0 +1,131 @@
+﻿<html ng-app="ShoppingListApp">
+
+<head>
+    
+	<title>Shopping List</title>
+	<link href='http://fonts.googleapis.com/css?family=The+Girl+Next+Door' rel='stylesheet' type='text/css'>		
+	<link href="http://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Arizonia" rel="stylesheet" type="text/css">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-responsive.min.css" rel="stylesheet" />
+	<link href="Content/ShoppingListStyles.css" rel="stylesheet" />
+    <script src="http://code.angularjs.org/1.2.1/angular.min.js"></script>
+	<script src="app.js"></script>
+	
+</head>
+
+<body ng-controller='ListsController'> <!---Definesc controlerul -->
+
+<!-- Start of AddListContainer -->
+	<div class ="addList">
+		<div class="container">
+			<header>
+				<h3>Shopping Lists</h3>
+			</header>
+			<div>
+				<div>
+					List Name:
+					<br/>
+					<input data-ng-model="newList.listName" type="text" placeholder="List Name">
+				</div>
+				<div>
+					Describe:
+					<br/>
+					<input data-ng-model="newList.describe" type="text" placeholder="Describe">
+				</div>
+				<div>
+					<button class="btn btn-primary" type="button" 
+							data-ng-disabled="!newList.listName || !newList.describe" 
+							data-ng-click="insertList()">Add List</button>
+				</div>
+			</div>
+   		
+			</div>
+			<!-- End of DisplayListsContainter -->
+	</div>     
+		<br /><br />
+<!-- End of AddListContainer-->	
+		
+<!-- Start of ListContainer -->		
+	<div>
+            <div class="row listContainer">
+				<!-- Start of DisplayListsContainter -->
+                <div class="span3 list" data-ng-repeat="list in lists | orderBy:'listName'">
+                    <button class="btn-btn close listClose" data-ng-click="deleteList(list.id)">&times;</button>
+                    
+					<!-- Start of ListTitleContainer -->
+					<div class="listHeader">{{list.listName}}  [{{list.describe +'] '}} 
+						<input ng-model="searchText" placeholder="Search" style="width:100px;" maxlength="10">
+					</div>
+					<!-- End of ListTitleContainer -->
+					
+					<br>
+					
+					<!-- Start of ListItemsContainer -->
+					<div data-ng-repeat="product in list.orders | orderBy:'category'|  filter:searchText | filter:greaterThanNum " ng-class="{'isSelected':product.selected}">
+						
+						<!-- Start of AddItemContainer -->
+						<div   class='hideDiv' ng-class="varHide2">
+							<div class='inputDiv' id='inputDiv2'>
+								<input class='inputTag' type="text" data-ng-model="list.itemName"  maxlength="10" value="">
+								<br>
+								<input class='inputTag' type="text" data-ng-model="list.quantity" maxlength="3" value="">
+								<br>
+								<select class='inputTag' style='font-size: 18px'  ng-model="list.category" ng-options="c for c in categories">
+									<option class='inputTag' value="">-- choose category --</option>
+								</select>
+								<br>
+								
+								<button class="btn btn-primary" type="button"  
+								data-ng-disabled="!list.itemName || !list.quantity || !list.category" 
+								ng-click="editItem(list,product.id); varHide2=''">Edit Item</button><!-- SUBMIT EditItemButton --> 
+							
+								<button class="btn btn-danger" type="button"  
+								ng-click="varHide2=''">Cancel</button> 
+							</div>
+						</div>
+						<!-- Start of AddListContainer -->
+						<div class="listBody">
+							<button class="btn btn-link" type="button"  ng-click="varHide2='showDiv';autoComplete(product,list)">Edit</button> <!--EditItemButton-->
+							<input type='checkbox' data-ng-model='product.selected'>	
+							{{product.itemName +' ; '+ product.quantity +' ; '+ product.category}}	
+						</div>
+					</div>
+					
+					<!-- Start of ListItemsContainer -->
+					
+					<div class='BtnAlin'> 
+						<div  class='hideDiv' ng-class="varHide1">
+							<div class='inputDiv' id='inputDiv2'>
+								
+								<input class='inputTag' data-ng-model="list.itemName" type="text" maxlength="10" placeholder="Item Name">
+								<br>
+								<input class='inputTag' data-ng-model="list.quantity"  type="text" maxlength="3" placeholder="Quantity">
+								<br>
+								<select class='inputTag' style='font-size: 18px'  ng-model="list.category" ng-options="c for c in categories">
+									<option class='inputTag' value="">-- choose category --</option>
+								</select>
+								<br>
+								
+								<button class="btn btn-primary" type="button"  
+								data-ng-disabled="!list.itemName || !list.quantity || !list.category" 
+								ng-click="insertItem(list);varHide1=''">Add Item</button> <!-- SUBMIT AddItemButton --> 
+								
+								<button class="btn btn-danger" type="button"  
+								ng-click="varHide1=''">Cancel</button> 
+								
+							</div>
+
+						</div>
+						<br>
+						<button class="btn-warning" type="button"  ng-click="varHide1='showDiv'">Add Item</button> <!--AddItemButton-->
+						<button class="btn-danger" type="button" data-ng-click="deleteItems(list.orders)">Delete Items</button> <!--DeleteItemButton-->
+						<br>
+					</div>	
+					<!-- Start of ListItemsContainer -->
+				</div>		
+			</div>
+	</div>	
+	
+</body>
+</html>

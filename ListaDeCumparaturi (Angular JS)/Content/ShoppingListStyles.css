@@ -1,0 +1,128 @@
+﻿body {
+    	padding: 65px;
+	background: url(cork_board2.png) ;
+	
+  	position:absolute;
+  	top:0;
+  	right:0;
+  	bottom:0;
+  	left:0;
+	 
+}
+
+.addList{
+	background-color: #CBFAFA;
+	width:310px;
+	padding: 15px;
+	box-shadow: 4px 4px 2px #888888;
+	border-radius:25px;
+	
+}
+
+.inputDiv{
+
+	font-size: 18px;
+	margin-left:auto;
+	margin-right:auto;	
+	width:16em;
+
+}
+#inputDiv2{
+
+	padding-top:75px;
+}
+.inputTag[type='text']{
+
+	font-size: 18px;
+	padding: 14px;	
+	
+}
+
+.inputTag{
+  width:240px;	
+}
+
+.hideDiv{
+  display: none;
+  background-color: black;
+  position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0.9;
+  min-width:140px;
+
+}
+
+.hideBtn{
+
+   display:none;
+
+}
+.hideBtn.showBtn{
+
+   display:block;
+}
+
+.hideDiv.showDiv{
+    font-size:16em;
+    display: block;
+}
+
+.isSelected{
+ 
+    text-decoration:line-through;
+}
+.view {
+    left: 60px;
+    position: relative;
+    opacity: 0.0;
+}
+
+.list {
+    margin: 20px;
+    background-color:#ffcd5a;
+    min-width:300px !important;
+}
+
+.BtnAlin{
+padding:10px;
+}
+
+.listHeader {
+    background-color: #ffcd5a;
+    font-size:14pt;
+    color:black;
+    padding:7px;
+    text-decoration:underline;
+    
+}
+
+
+.listContainer {
+    width:90%;
+    min-width:300px !important;
+
+}
+
+.listBody {
+    padding-left: 5px;
+    font-family: 'The Girl Next Door', cursive;
+    font-style: italic;
+    font-weight: 700;
+ 
+}
+
+.lastRow {
+    background-color: #ccc;
+    padding-top: 5px;
+}
+
+.indent {
+    margin-left:20px;
+}
+
+
+
