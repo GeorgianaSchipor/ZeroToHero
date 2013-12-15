@@ -1,0 +1,31 @@
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.csprojResolveAssemblyReference.cache
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExampleTest.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExampleTest.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExample.exe
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Autofac.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExample.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.xml
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExampleTest.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExampleTest.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExample.exe
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Autofac.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExample.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.pdb
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.xml
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.csprojResolveAssemblyReference.cache
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.dll
+C:\Users\liviu_000\Desktop\FZTH\sapt3\unittesting\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.pdb
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExampleTest.dll
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExampleTest.pdb
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExample.exe
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Autofac.dll
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\InversionOfControlExample.pdb
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.pdb
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\bin\Debug\Moq.xml
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.csprojResolveAssemblyReference.cache
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.dll
+C:\Users\georgiana-oana\Desktop\Unit Testing\InversionOfControlExample\InversionOfControlExampleTest\obj\Debug\InversionOfControlExampleTest.pdb
